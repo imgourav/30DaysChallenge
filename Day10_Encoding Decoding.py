@@ -7,8 +7,8 @@ root = Tk()
 root.geometry('750x422')
 root.resizable(0,0)
 
-z=ImageTk.PhotoImage(file="image.jpg")
-img=Label(root,image=z,bd=0)
+z=ImageTk.PhotoImage(file="image.jpg")				# Get the Image File from the Telegram Channel
+img=Label(root,image=z,bd=0)					# t.me/coderbuzz or type coderbuzz on Telegram
 img.place(x=0,y=0)
 
 #title of the window
