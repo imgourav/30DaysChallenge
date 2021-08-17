@@ -10,8 +10,8 @@ root.title("PDF Locker")
 root.geometry("1000x662")
 root.resizable(0,0)
 
-a=ImageTk.PhotoImage(file="image.jpg")
-img=Label(root,image=a,bd=0)
+a=ImageTk.PhotoImage(file="image.jpg")                  # Image File is available on Telegram channel
+img=Label(root,image=a,bd=0)                            # t.me/coderbuzz or Type coderbuzz on Telegram
 img.place(x=0,y=0)
 
 def open_file():
